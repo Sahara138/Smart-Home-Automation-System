@@ -3,13 +3,13 @@ Smart Home Automation is to explore the technical challenges of setting up a cos
 
 SOFTWARE & HARDWARE COMPONENTS:
 The various components employed in the home automation system for a cost effective and opensource structure are: 
-Raspberry Pi 4
+Raspberry Pi 4:
     Raspberry Pi is a low cost, small size computer that runs on Linux OS. Raspberry Pi is used as the local webserver and its General-Purpose Input/Output (GPIO) pins are controlled through a simple webpage.
     
-Python Programmer
+Python Programmer:
     Python also has a large collection of libraries, which speeds up the development process. There are libraries for everything you can think of – game programming, rendering graphics, GUI interfaces,webframeworks,and scientific computing. We'll use the RPi.GPIO module as the driving force behind our Python examples. This set of Python files and source is included with Raspbian.
     
-Other Hardware Components
+Other Hardware Components:
   Sensor:
     1. Ultrasonic Sensor
     2. Keypad
@@ -32,6 +32,6 @@ BLOCK DIAGRAM:
 System Design:
     For Garage, Ultrasonic sensor which sense the distance of object and Rotate the servo motor. Keypad which sensor input the secret code and turns on the Green/Red LED and Buzzer Which acts as right/wrong password for door lock system. PIR Sensor which sense the motion and turns on the light. For Ventilation, Temperature Sensor which checks the temperature of the house/room and turns on the fan in that house/room.
 
-Conclusion
+Conclusion:
     Smart home automation system which is the most commercial application which has experimentally verified satisfactorily we have connected the small appliance to it and we were able to control them remotely. This will help the users of any age to control and monitor their home. The smart home automation system was accomplished and functioned smoothly as described in this paper. The structure enabled seamless control of sensors and appliances from a Python based user interface.
 
